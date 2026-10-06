@@ -22,6 +22,14 @@ export default function App() {
 
   const avatarPath = '/assets/images/avatar_jehu_portrait_1791287285360.jpg';
 
+  React.useEffect(() => {
+    // Always start at top of page on load/reload
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+    window.scrollTo(0, 0);
+  }, []);
+
   const scrollToSection = (id: string) => {
     const el = document.getElementById(id);
     if (el) {

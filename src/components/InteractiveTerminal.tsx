@@ -17,11 +17,20 @@ Type 'help' for available commands, or try 'projects', 'whoami', 'skills'.`,
     },
   ]);
 
-  const bottomRef = useRef<HTMLDivElement>(null);
+  const terminalBodyRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const isFirstRender = useRef(true);
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+    // Prevent scrolling the page on mount
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+    // Only scroll the terminal inner container, NOT the window
+    if (terminalBodyRef.current) {
+      terminalBodyRef.current.scrollTop = terminalBodyRef.current.scrollHeight;
+    }
   }, [history]);
 
   const handleCommand = (e: React.FormEvent) => {
@@ -162,7 +171,7 @@ Type 'help' for available commands, or try 'projects', 'whoami', 'skills'.`,
           </div>
 
           {/* Terminal Body */}
-          <div className="p-4 sm:p-6 min-h-[260px] max-h-[380px] overflow-y-auto space-y-3">
+          <div ref={terminalBodyRef} className="p-4 sm:p-6 min-h-[260px] max-h-[380px] overflow-y-auto space-y-3">
             {history.map((line, idx) => (
               <div key={idx} className="leading-relaxed">
                 {line.type === 'input' && (
@@ -176,7 +185,6 @@ Type 'help' for available commands, or try 'projects', 'whoami', 'skills'.`,
                 )}
               </div>
             ))}
-            <div ref={bottomRef} />
 
             {/* Input Line */}
             <form onSubmit={handleCommand} className="flex items-center gap-2 mt-2 pt-2">
