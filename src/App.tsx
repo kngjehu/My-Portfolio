@@ -20,7 +20,7 @@ export default function App() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [previewProject, setPreviewProject] = useState<Project | null>(null);
 
-  const avatarPath = '/src/assets/images/avatar_jehu_portrait_1791287285360.jpg';
+  const avatarPath = '/assets/images/avatar_jehu_portrait_1791287285360.jpg';
 
   const scrollToSection = (id: string) => {
     const el = document.getElementById(id);

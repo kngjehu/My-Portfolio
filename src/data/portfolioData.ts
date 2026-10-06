@@ -47,7 +47,7 @@ export const PROJECTS: Project[] = [
     tagline: "Premium Web Development & AI Automation",
     category: "Web & AI Engineering",
     liveUrl: "https://blackstonexlabs.vercel.app",
-    image: "/src/assets/images/project_blackstonexlabs_1791287298674.jpg",
+    image: "/assets/images/project_blackstonexlabs_1791287298674.jpg",
     summary: "Premium Web Development, AI Automation, and Cinematic Video Editing platform engineered for high-scaling businesses.",
     detailedDescription:
       "BlackstoneX Labs delivers high-performance digital engineering, automated workflows, and digital production for scaling businesses. Built with modular component architecture, the platform features responsive dark-mode telemetry, reactive interactive showcases, and high-frequency data presentation with zero layout shift.",
@@ -70,7 +70,7 @@ export const PROJECTS: Project[] = [
     tagline: "Wig Revamping, Custom Installations & Luxury Perfumes",
     category: "Luxury Beauty & Perfumery",
     liveUrl: "https://auralab-ng.vercel.app",
-    image: "/src/assets/images/project_auralab_beauty_1791288279974.jpg",
+    image: "/assets/images/project_auralab_beauty_1791288279974.jpg",
     summary: "Crafting your signature Aura. Premium wig revamping, custom wig installations, and curated luxury perfumes.",
     detailedDescription:
       "Aura Lab is a luxury beauty brand platform dedicated to signature hair artistry, professional wig revamping, custom wig installations, and curated luxury perfumes. Engineered with a sleek purple-accented editorial aesthetic, the web app enables seamless service discovery, wig overhaul consultations, and luxury fragrance catalogue browsing.",
@@ -93,7 +93,7 @@ export const PROJECTS: Project[] = [
     tagline: "AI-Powered Habit Tracker & Personal Transformation",
     category: "AI Productivity & Habit Tracking",
     liveUrl: "https://bcome-ai.vercel.app",
-    image: "/src/assets/images/project_become_habit_1791288843657.jpg",
+    image: "/assets/images/project_become_habit_1791288843657.jpg",
     summary: "AI-powered personal transformation and habit tracking system that turns the person you want to be into the person you consistently act like.",
     detailedDescription:
       "Become AI is an intelligent habit tracking and personal transformation platform designed to engineer lasting behavioral change. Featuring a dark obsidian interface with purple accents, it pairs daily habit logging, consistency streaks, and habit completion tracking with contextual AI coaching to build unbreakable momentum.",
