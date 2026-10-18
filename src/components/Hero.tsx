@@ -187,7 +187,7 @@ export const Hero: React.FC<HeroProps> = ({
                     </span>
                   </a>
                   <a
-                    href="https://bcome-ai.vercel.app"
+                    href="https://becomeai.dev"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-between rounded-md p-2 bg-slate-900/60 hover:bg-purple-950/50 hover:text-purple-300 border border-slate-800/80 hover:border-purple-800/50 transition-all text-slate-300 group"
@@ -197,7 +197,7 @@ export const Hero: React.FC<HeroProps> = ({
                       <span className="text-[10px] text-purple-400 font-mono">(Habit Tracker)</span>
                     </div>
                     <span className="flex items-center gap-1 text-[11px] text-slate-400 group-hover:text-purple-400">
-                      bcome-ai.vercel.app
+                      becomeai.dev
                       <ExternalLink className="h-3 w-3" />
                     </span>
                   </a>

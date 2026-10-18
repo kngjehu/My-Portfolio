@@ -103,7 +103,7 @@ export const engineer = {
   deployedProjects: [
     "blackstonexlabs.vercel.app",
     "auralab-ng.vercel.app",
-    "bcome-ai.vercel.app"
+    "becomeai.dev"
   ],
   strengths: [
     "Rapid prototype-to-prod cycle",

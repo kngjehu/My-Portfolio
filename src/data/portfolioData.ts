@@ -92,7 +92,7 @@ export const PROJECTS: Project[] = [
     title: "Become AI",
     tagline: "AI-Powered Habit Tracker & Personal Transformation",
     category: "AI Productivity & Habit Tracking",
-    liveUrl: "https://bcome-ai.vercel.app",
+    liveUrl: "https://becomeai.dev",
     image: "/assets/images/project_become_habit_1791288843657.jpg",
     summary: "AI-powered personal transformation and habit tracking system that turns the person you want to be into the person you consistently act like.",
     detailedDescription:

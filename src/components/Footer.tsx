@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
               Aura Lab (Hair & Perfume)
             </a>
             <a
-              href="https://bcome-ai.vercel.app"
+              href="https://becomeai.dev"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-purple-400 transition-colors"
